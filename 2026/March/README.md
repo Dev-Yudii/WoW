@@ -22,8 +22,10 @@ available for different visual components, understanding how small adjustments c
 
 ## 2026 Week 13 | Power BI: Tile Map with 3D Effect by Meagan Longoria 
 
-This challenge was my first experience working with Deneb and the Vega visualization language. Although JSON syntax was already familiar to me, understanding how the tile geometry was constructed was more challenging. I used the creator's PBIX file as a reference to better understand the implementation and guide my own version.
+This challenge was my first experience working with Deneb and the Vega visualization language. Although JSON syntax was already familiar to me, understanding how the tile geometry was constructed was more challenging. I used the creator's original implementation as a reference to understand the solution's logic and adapt the visual to my own data structure, also with the help of AI.
 
-I also created a separate coordinate table to define the position of each state, which helped simplify part of the implementation. One of the most interesting aspects of this challenge was understanding why tile maps can be used instead of geographically accurate maps: by representing each state with a tile, the visualization reduces geographical distractions and keeps the viewer's attention on the data itself.
+One of the adaptations was creating a separate coordinate table to define the position of each state and relate it to the elevation data. This helped organize the data structure and simplify part of the implementation.
+
+One of the most interesting aspects of this challenge was reflecting on why tile maps can be used instead of geographically accurate maps. By representing each state with a tile, the visualization gives them similar visual space while maintaining an approximate sense of their geographical position. This reduces geographical distractions and gives more emphasis to the information being presented.
 
 I'm still getting familiar with Deneb and Vega, and I don't fully understand every part of the code yet. However, this challenge introduced me to a different way of thinking about data visualization. I had already recognized the importance of choosing the right chart for the data, but this experience helped me understand how simplifying or reshaping certain aspects of information can guide the viewer's attention toward what really matters in a visualization.
